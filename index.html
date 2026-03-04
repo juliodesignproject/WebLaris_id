@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebLaris - Solusi Website Strategis untuk Bisnis Modern</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 3D Background Animations -->
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
+    <div class="background-glow glow-3"></div>
+    <div class="animated-grid"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo-wrapper" onclick="scrollToTop()">
+                <div class="logo-circle-frame">
+                    <img src="logo-weblaris.jpeg" alt="WebLaris" class="logo-img">
+                </div>
+                <div class="brand-info">
+                    <h2 class="brand-name">WebLaris</h2>
+                    <p class="brand-tagline">Solusi Website Strategis</p>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a onclick="scrollToElement('layanan')">Layanan</a>
+                <a onclick="scrollToElement('pricing')">Harga</a>
+                <a onclick="scrollToElement('testimoni')">Testimoni</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Bikin Bisnis Kamu <span class="gradient-text">Terlihat Profesional</span> & <span class="gradient-text">Lebih Dipercaya</span> Pelanggan
+                </h1>
+                <p class="hero-subtitle">Punya website sendiri sekarang lebih mudah. Cocok untuk UMKM, toko online, dan usaha rumahan. Website yang bekerja 24/7 untuk meningkatkan penjualan Anda.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://wa.me/6287824975606?text=Halo%20WeblAris%21%20Saya%20tertarik%20membuat%20website.%20Bisa%20konsultasi%20gratis%20dulu%3F" class="btn btn-primary">
+                        <span>💬 Konsultasi Gratis via WhatsApp</span>
+                    </a>
+                </div>
+                <p class="hero-note">✨ Gratis tanya-tanya dulu, tanpa komitmen</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="section problems-section">
+        <div class="container">
+            <h2 class="section-title">Apakah Bisnis Kamu Menghadapi <span class="gradient-text">Masalah Ini?</span></h2>
+            
+            <div class="problems-grid">
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">❌</div>
+                    <h3>Jualan Masih Lewat Chat</h3>
+                    <p>Tidak ada platform profesional untuk menampilkan bisnis Anda dengan baik kepada calon pelanggan.</p>
+                </div>
+                
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">❌</div>
+                    <h3>Pertanyaan Yang Berulang</h3>
+                    <p>Pelanggan sering bertanya harga dan detail produk yang sama berkali-kali setiap hari.</p>
+                </div>
+                
+                <div class="problem-card glass-card">
+                    <div class="problem-icon">❌</div>
+                    <h3>Terlihat Kurang Profesional</h3>
+                    <p>Bisnis Anda terlihat kurang profesional dibanding kompetitor yang sudah punya website.</p>
+                </div>
+            </div>
+
+            <div class="solution-box glass-card">
+                <h3>✨ Solusinya adalah punya website sendiri yang profesional!</h3>
+                <p>Website adalah aset digital yang bekerja 24/7 untuk bisnis Anda, meningkatkan kepercayaan pelanggan dan penjualan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="section solutions-section">
+        <div class="container">
+            <h2 class="section-title">Bagaimana Kami <span class="gradient-text">Membantu Bisnis Kamu</span></h2>
+            
+            <div class="solutions-grid">
+                <div class="solution-card glass-card">
+                    <div class="solution-icon">🎨</div>
+                    <h3>Tampil Profesional</h3>
+                    <p>Website dengan desain modern dan elegan membuat bisnis Kamu terlihat serius dan terpercaya di mata pelanggan.</p>
+                </div>
+                
+                <div class="solution-card glass-card">
+                    <div class="solution-icon">📱</div>
+                    <h3>Mobile Friendly</h3>
+                    <p>Website Kamu akan terlihat sempurna di semua perangkat, dari smartphone hingga desktop pelanggan Anda.</p>
+                </div>
+                
+                <div class="solution-card glass-card">
+                    <div class="solution-icon">🏷️</div>
+                    <h3>Tampilkan Produk Jelas</h3>
+                    <p>Harga, deskripsi, dan foto produk ditampilkan dengan jelas tanpa pelanggan perlu bertanya berkali-kali.</p>
+                </div>
+                
+                <div class="solution-card glass-card">
+                    <div class="solution-icon">💬</div>
+                    <h3>Terhubung ke WhatsApp</h3>
+                    <p>Tombol WhatsApp yang langsung terhubung membuat pelanggan mudah untuk menghubungi dan memesan produk Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services-section">
+        <div class="container">
+            <h2 class="section-title">Apa Saja <span class="gradient-text">Layanan Kami?</span></h2>
+            
+            <div class="services-grid">
+                <div class="service-item glass-card">
+                    <div class="service-number">01</div>
+                    <h3>Landing Page Produk</h3>
+                    <p>Fokus menjual 1 produk utama dengan desain konversi tinggi dan CTA yang jelas.</p>
+                </div>
+                
+                <div class="service-item glass-card">
+                    <div class="service-number">02</div>
+                    <h3>Website Company Profile</h3>
+                    <p>Memperkenalkan perusahaan atau bisnis Kamu dengan tampilan profesional dan elegant.</p>
+                </div>
+                
+                <div class="service-item glass-card">
+                    <div class="service-number">03</div>
+                    <h3>Website UMKM/Toko Online</h3>
+                    <p>Website sederhana namun powerful untuk menampilkan produk dan harga dengan jelas.</p>
+                </div>
+                
+                <div class="service-item glass-card">
+                    <div class="service-number">04</div>
+                    <h3>Website Personal Branding</h3>
+                    <p>Personal website untuk membangun brand personal Anda dengan portfolio dan testimonial.</p>
+                </div>
+                
+                <div class="service-item glass-card">
+                    <div class="service-number">05</div>
+                    <h3>Update & Maintenance</h3>
+                    <p>Kami siap membantu update konten dan maintenance website Anda setiap saat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <div class="pricing-header">
+                <h2 class="pricing-title">Jasa Pembuatan Website Profesional</h2>
+                <p class="pricing-subtitle">Website modern, cepat, dan siap online untuk meningkatkan kredibilitas bisnis Anda.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Paket Starter -->
+                <div class="pricing-card glass-card">
+                    <div class="package-label">Cocok untuk personal branding & bisnis yang baru mulai</div>
+                    <h3>PAKET STARTER</h3>
+                    <div class="price">Rp 699.000</div>
+                    
+                    <ul class="features-list">
+                        <li>✓ 1 Halaman Landing Page</li>
+                        <li>✓ Desain Modern & Responsive</li>
+                        <li>✓ Tombol WhatsApp</li>
+                        <li>✓ Optimasi SEO Dasar</li>
+                        <li>✓ Upload ke server profesional</li>
+                        <li>✓ Revisi 2x</li>
+                    </ul>
+                    
+                    <div class="package-note">Domain & hosting dibeli terpisah (dibantu sampai aktif)</div>
+                    <p class="package-footer">Cocok untuk UMKM kecil & portfolio profesional.</p>
+                    
+                    <a href="https://wa.me/6287824975606?text=Halo%20WeblAris%21%20Saya%20tertarik%20dengan%20Paket%20STARTER%20(Rp%20699.000).%20Bisa%20konsultasi%20gratis%3F" class="btn btn-primary">Konsultasi Sekarang</a>
+                </div>
+
+                <!-- Paket Bisnis (Featured) -->
+                <div class="pricing-card glass-card featured">
+                    <div class="badge-featured">⭐ Paling Laris</div>
+                    <div class="package-label">Paket terpopuler untuk mengembangkan bisnis</div>
+                    <h3>PAKET BISNIS</h3>
+                    <div class="price">Rp 1.500.000</div>
+                    
+                    <ul class="features-list">
+                        <li>✓ Hingga 5 Halaman Website</li>
+                        <li>✓ Desain Custom Sesuai Branding</li>
+                        <li>✓ Form Kontak + WhatsApp</li>
+                        <li>✓ SEO Dasar + Setup Google Search Console</li>
+                        <li>✓ Struktur Website Siap Ranking</li>
+                        <li>✓ Revisi 3x</li>
+                    </ul>
+                    
+                    <div class="package-note">Domain & hosting dibeli terpisah (dibantu setup penuh)</div>
+                    <p class="package-footer">Cocok untuk bisnis yang ingin terlihat lebih terpercaya & profesional.</p>
+                    
+                    <a href="https://wa.me/6287824975606?text=Halo%20WeblAris%21%20Saya%20tertarik%20dengan%20Paket%20BISNIS%20(Rp%201.500.000).%20Bisa%20konsultasi%20gratis%3F" class="btn btn-primary">Konsultasi Sekarang</a>
+                </div>
+
+                <!-- Paket Premium -->
+                <div class="pricing-card glass-card">
+                    <div class="package-label">Untuk hasil maksimal & pertumbuhan jangka panjang</div>
+                    <h3>PAKET PREMIUM</h3>
+                    <div class="price">Rp 2.800.000</div>
+                    
+                    <ul class="features-list">
+                        <li>✓ Desain Premium & Lebih Interaktif</li>
+                        <li>✓ Struktur SEO Lebih Mendalam</li>
+                        <li>✓ Optimasi Kecepatan Website</li>
+                        <li>✓ Integrasi Form, WA, dan Tracking</li>
+                        <li>✓ Setup Google Search Console</li>
+                        <li>✓ Revisi 5x</li>
+                        <li>✓ Support 1 Bulan</li>
+                    </ul>
+                    
+                    <div class="package-note">Domain & hosting dibeli terpisah (dibantu setup penuh)</div>
+                    <p class="package-footer">Untuk bisnis yang ingin fokus jangka panjang & branding kuat.</p>
+                    
+                    <a href="https://wa.me/6287824975606?text=Halo%20WeblAris%21%20Saya%20tertarik%20dengan%20Paket%20PREMIUM%20(Rp%202.800.000).%20Bisa%20konsultasi%20gratis%3F" class="btn btn-primary">Konsultasi Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Domain & Hosting Info Section -->
+            <div class="domain-hosting-section glass-card">
+                <h3 class="info-title">Kenapa Domain & Hosting Terpisah?</h3>
+                <div class="info-content">
+                    <ul class="info-list">
+                        <li>✓ <strong>Website 100% milik klien</strong> - Akses penuh dan kontrol total</li>
+                        <li>✓ <strong>Akses aman & transparan</strong> - Tidak terjebak dengan penyedia</li>
+                        <li>✓ <strong>Bisa diperpanjang sendiri</strong> - Fleksibilitas penuh setiap tahun</li>
+                    </ul>
+                    <div class="cost-estimation">
+                        <p><strong>Estimasi biaya domain + hosting:</strong></p>
+                        <p class="cost-range">Mulai dari Rp 500.000–900.000 per tahun (tergantung provider)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="section why-section">
+        <div class="container">
+            <h2 class="section-title">Kenapa <span class="gradient-text">Pilih Kami?</span></h2>
+            
+            <div class="why-grid">
+                <div class="why-item glass-card">
+                    <div class="why-icon">💰</div>
+                    <h3>Harga Terjangkau</h3>
+                    <p>Paket harga spesial untuk UMKM dengan kualitas premium yang terjangkau.</p>
+                </div>
+                
+                <div class="why-item glass-card">
+                    <div class="why-icon">⚡</div>
+                    <h3>Proses Cepat</h3>
+                    <p>Website siap dalam waktu singkat tanpa ribet dan delay yang berkepanjangan.</p>
+                </div>
+                
+                <div class="why-item glass-card">
+                    <div class="why-icon">💬</div>
+                    <h3>Konsultasi Gratis</h3>
+                    <p>Tanya jawab dan diskusi gratis sebelum membuat website tanpa biaya apapun.</p>
+                </div>
+                
+                <div class="why-item glass-card">
+                    <div class="why-icon">✨</div>
+                    <h3>Tidak Ribet</h3>
+                    <p>Kami yang handle semua teknis, Kamu hanya tinggal gunakan dan promosikan.</p>
+                </div>
+                
+                <div class="why-item glass-card">
+                    <div class="why-icon">🤝</div>
+                    <h3>Support Ramah</h3>
+                    <p>Tim support yang responsif dan siap membantu Kamu setiap saat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials-section" id="testimoni">
+        <div class="container">
+            <h2 class="section-title">Apa Kata <span class="gradient-text">Klien Kami?</span></h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Sebelumnya saya jualan lewat chat saja, sekarang punya website profesional. Alhamdulillah penjualan naik 40% dalam 2 bulan pertama!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div>
+                            <h4>Siti Rahmawati</h4>
+                            <p>Pemilik Toko Fashion Online</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Website-nya rapi, mudah digunakan, dan yang terpenting proses pembuatannya cepat. Tim support mereka sangat responsif!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">BH</div>
+                        <div>
+                            <h4>Budi Hartono</h4>
+                            <p>Pemilik Usaha Kue Rumahan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card glass-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Sangat puas! Harganya terjangkau, desainnya bagus, dan sekarang bisnis saya terlihat lebih profesional. Pemesanan meningkat signifikan!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ER</div>
+                        <div>
+                            <h4>Eka Rosalina</h4>
+                            <p>Freelancer & Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="section final-cta">
+        <div class="container">
+            <h2 class="cta-title">Yuk, Naikkan Level Bisnis Kamu Sekarang! 🚀</h2>
+            <p class="cta-subtitle">Jangan biarkan kompetitor Anda unggul. Mulai dari sekarang dengan website profesional yang meningkatkan penjualan.</p>
+            
+            <div class="cta-buttons-group">
+                <a href="https://wa.me/6287824975606?text=Halo%20WeblAris%21%20Saya%20ingin%20naikkan%20level%20bisnis%20saya.%20Bisa%20konsultasi%20gratis%3F" class="btn btn-primary">💬 Hubungi via WhatsApp</a>
+                <a href="https://instagram.com/weblaris_id" target="_blank" class="btn btn-secondary">📸 Follow Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>WebLaris</h4>
+                    <p>Solusi website strategis untuk bisnis yang ingin tampil profesional di era digital.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hubungi Kami</h4>
+                    <a href="https://wa.me/6287824975606">WhatsApp: 087824975606</a>
+                    <a href="https://instagram.com/weblaris_id" target="_blank">Instagram: @weblaris_id</a>
+                    <p style="margin-top: 0.5rem;">Senin - Jumat: 09:00 - 18:00</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Layanan</h4>
+                    <a onclick="scrollToElement('layanan')">Landing Page</a>
+                    <a onclick="scrollToElement('layanan')">Website UMKM</a>
+                    <a onclick="scrollToElement('layanan')">Personal Branding</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebLaris. Solusi website strategis untuk bisnis Anda.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToElement(elementId) {
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
