@@ -686,7 +686,7 @@ body {
 
 .badge-featured {
     position: absolute;
-    top: 20px;
+    top: -12px;
     right: 20px;
     background: linear-gradient(135deg, #d4af37 0%, #f0e68c 100%);
     color: #0f0c29;
@@ -703,6 +703,8 @@ body {
     margin-bottom: 1rem;
     font-weight: 500;
     letter-spacing: 0.5px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .pricing-card h3 {
